@@ -15,11 +15,6 @@ body {
     margin: 0 auto;
 }
 
-main {
-    max-width: 1128px;
-    margin: 0 auto;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -97,7 +92,7 @@ nav {
 
 .banner-description {
     font-size: 16px;
-    font-family: "Inter", sans-serif !important;
+    font-family: "Inter", sans-serif;
     color: #4E4E4E;
     margin-top: 8px;
 }
@@ -137,6 +132,8 @@ nav {
 
 /* Categories */
 .categories-section {
+    max-width: 1128px;
+    margin: 0 auto;
     margin-top: 64px;
 }
 
@@ -182,4 +179,92 @@ nav {
     width: 68px;
     height: 90px;
     object-fit: cover;
+}
+
+/* Shoes section */
+.shoes-section {
+    background-color: #F4F4F4;
+}
+
+.shoes-container {
+    max-width: 1128px;
+    margin: 0 auto;
+    margin-top: 48px;
+    padding-top: 48px;
+}
+
+.shoes-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shoes-section-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F1F1F;
+    text-transform: capitalize;
+}
+
+.shoes-wrap a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff9D00;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.shoes-card-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.shoes-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.shoes-image img {
+    width: 336px;
+    height: 202px;
+    object-fit: cover;
+}
+
+.shoes-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #1F1F1F;
+}
+
+.shoes-description {
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.shoes-price {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.black-btn {
+    padding: 16px 28px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 0 auto;
 }
