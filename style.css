@@ -190,6 +190,7 @@ nav {
     max-width: 1128px;
     margin: 0 auto;
     padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .shoes-wrap {
@@ -271,4 +272,73 @@ nav {
 
 .black-btn:hover {
     background-color: #1F1F1F;
+}
+
+/* Footer */
+.footer-section {
+    max-width: 1212px;
+    margin: 0 auto;
+    background-color: #FFF2F1;
+    border-radius: 24px;
+    margin-top: 64px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 146px 0;
+}
+
+.footer-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1F1F1F;
+    text-transform: uppercase;
+}
+
+.footer-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+    margin-top: 4px;
+}
+.footer-contact {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact input {
+    padding: 22px 35px 15px 35px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 8px 0 0 8px;
+}
+
+.footer-contact input:focus {
+    outline: none;
+}
+
+.footer-contact button {
+    padding: 22px 48px 15px 48px;
+    background-color: #FF136F;
+    color: #ffffff;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer-contact button:hover {
+    background-color: #f73a89;
+}
+
+.footer-contact input::placeholder {
+    color: #CCCCCC;
 }
