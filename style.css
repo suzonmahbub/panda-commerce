@@ -134,7 +134,7 @@ nav {
 .categories-section {
     max-width: 1128px;
     margin: 0 auto;
-    margin-top: 64px;
+    margin: 64px auto;
 }
 
 .categories-container {
@@ -189,7 +189,6 @@ nav {
 .shoes-container {
     max-width: 1128px;
     margin: 0 auto;
-    margin-top: 48px;
     padding-top: 48px;
 }
 
@@ -266,4 +265,10 @@ nav {
     gap: 10px;
     align-items: center;
     margin: 0 auto;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.black-btn:hover {
+    background-color: #1F1F1F;
 }
